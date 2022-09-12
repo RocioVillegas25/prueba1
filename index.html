@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+        <style>
+            :root {
+                --bs-font-sans-serif: "Inter", sans-serif;
+                --bs-body-color: #232323;
+            }
+            body {
+                /* puede reemplazar la imagen de encabezado por otra que se funda con el color de fondo (que en este caso es #f7f7f7) */
+                background: #f7f7f7 url("img/encabezado.png") center 0 no-repeat;
+                background-size: auto 70vh;
+            }
+            @media (min-width: 992px) {
+                .container {
+                    max-width: 960px;
+                }
+            }
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                letter-spacing: 0.075rem;
+                font-weight: 600;
+            }
+            p em {
+                font-weight: 600;
+                font-style: normal;
+            }
+        </style>
+        <title>Reemplaza este título que se muestra en la ventana de tu navegador</title>
+    </head>
+    <body>
+        <header class="container">
+            <div class="row">
+                <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                    <!--note que el h1 incluye un atributo de estilo, donde el valor es 71vh (ver línea 18 del código, es igual al segundo valor del background-size)-->
+                    <h1 class="text-center" style="padding-top: 70vh;">La Tragedia de Los Andes</h1>
+                    <h2 class="mt-4 mb-5 text-center fs-6 text-black-50">ROCÍO VILLEGAS</h2>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <div class="row g-4 pb-5">
+                <article class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                    <p class="lead">
+                        En octubre de 1972 un vuelo de la FFAA Uruguaya se accidentó en la cordillera de Los Andes, dando inicio a una de las hazañas de supervivencia humana más recordadas en el último siglo.
+                    </p>
+                </article>
+
+                <article>
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="fs-4 text-center mt-4 mb-3">El accidente</h3>
+                        <p>
+                            El accidente ocurrió por motivos del clima y confusión del piloto. 
+                            El viaje se suponia que sería desde Uruguay hasta Santiago de Chile, pero por malas condiciones climáticas tuvieron que aterrizar de emergencia en Mendoza, esperando que el panorama mejore.
+                            Partieron al día siguiente sin las condiciones adecuadas y organizaron el recorrido para ir en paralelo a la cordillera y cruzar en la altura de Curicó. Pero, al estar tan cubierta la montaña el piloto no logró calcular bien la distancia e impacta con parte de la cordilla.
+                            El choque ocurrió entre el cerro Sosneado y el volcán Tinguiririca.
+                        </p>
+                    </div>
+                    <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                        <object type="image/svg+xml" data="img/imagen1.svg" class="w-100 my-2">
+                            Aquí corresponde un texto o una imagen alternativa
+                        </object>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="fs-4 text-center mt-4 mb-3">Más de dos meses en la cordillera de los Andes</h3>
+                        <p>
+                            En el avión iban 45 personas, 40 pasajeros y 5 tripulantes. Entre los pasajeros había jugadores de rugby uruguayos y algunos de sus familiares.
+                            Tuvieron que atravesar condiciones climáticas extremas y falta de comida, por esto después de bastante tiempo decidieron empezar a alimentarse de sus compañeros que ya habían fallecido.
+                            Después de 72 días en la cordillera lograron rescatar a 16 de los pasajeros del avión.
+                        </p>
+                    </div>
+                    <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                        <object type="image/svg+xml" data="img/imagen2.svg" class="w-100 my-2">
+                            Aquí corresponde un texto o una imagen alternativa
+                        </object>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="fs-4 text-center mt-4 mb-3">El rescate</h3>
+                        <p>
+                            Después de más de dos meses perdidos en la montaña, dos de los sobrevivientes decidieron emprender la marcha en busca de ayuda. Luego de algunos días caminando sin rumbo, se encontraron con un arriero que andaba por la zona, quien dió aviso a los carabineros del poblado más cerca y consiguió que los rescataran en helicóptero.
+                        </p>
+                    </div>
+                    <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                        <object type="image/svg+xml" data="img/imagen3.svg" class="w-100 my-2">
+                            Aquí corresponde un texto o una imagen alternativa
+                        </object>
+                    </div>
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mt-4 mx-auto">
+                        <p>
+                            En resumen, la tragedia de los Andes es un hecho que ha marcado la historia. Es un ejemplo extremo de supervivencia humana, compañerismo y toma de desiciones. El haberse enfrentado a las duras condiciones de la cordillera demuestra el nivel de valentía que tenían muchos de los sobrevivientes. 
+                        </p>
+                    </div>
+                </article>
+
+                <article class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto my-3">
+                    <p class="text-black-50 small">
+                        <a href="https://tn.com.ar/sociedad/2021/12/23/la-tragedia-y-el-milagro-de-los-andes-como-fue-volver-al-lugar-donde-cayo-el-avion-571-de-la-fuerza-aerea-uruguaya/" target="_blank">Volviendo a la zona del impacto </a>, publicado por Mario Markic (2021). 
+                         <a href="https://www.youtube.com/watch?v=m_xXC3YGNRQ" target="_blank">Parte 2 accidente de los Andes </a>, publicado por Quo Geo (2022). 
+                          <a href="https://www.youtube.com/watch?v=m_xXC3YGNRQ" target="_blank">Parte 2 accidente de los Andes </a>, publicado por Quo Geo (2022). 
+                          <a href="https://www.latimes.com/espanol/vida-y-estilo/articulo/2019-10-13/roy-harley-uno-de-los-sobrevivientes-del-milagro-de-los-andes-habla-de-su-vida" target="_blank">Artículo uno de los sobrevivientes</a>, publicado por Valeria Agis (2019). 
+
+                         
+                    </p>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                        <p class="text-center"> 
+                            <a href="https://github.com/profesorfaco/dno075-2022-2/tree/main/clase-06">Lunes 12 de septiembre, 2022</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            var links = document.querySelectorAll("a");
+            links.forEach((l) => l.classList.add("link-dark"));
+            console.log("Esto es JavaScript");
+        </script>
+    </body>
+</html>
